@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Los Angeles Police Department</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header>
+    <h1>Los Angeles Police Department</h1>
+    <p>"To Protect and To Serve"</p>
+  </header>
+
+  <section class="intro">
+    <h2>Genel Bilgi</h2>
+    <p>LAPD, Amerika Birleşik Devletleri'nin en büyük ikinci polis teşkilatıdır. 1869 yılında kurulmuştur ve Los Angeles şehrinin güvenliğini sağlamakla görevlidir.</p>
+  </section>
+
+  <section class="duties">
+    <h2>Görevleri</h2>
+    <ul>
+      <li>Halkın can ve mal güvenliğini sağlamak</li>
+      <li>Suçları önlemek ve soruşturmak</li>
+      <li>Toplumsal düzeni korumak</li>
+      <li>Acil durumlara müdahale etmek</li>
+    </ul>
+  </section>
+
+  <section class="equipment">
+    <h2>Kullanılan Teçhizat</h2>
+    <div class="equipment-list">
+
+      <div class="item">
+        <h3>Ford Interceptor</h3>
+        <img src="https://paultan.org/image/2020/07/2020-Ford-Police-Interceptor_2-e1594370566935.jpeg" alt="Ford Interceptor">
+        <p>LAPD'nin standart devriye aracı. Hızlı, dayanıklı ve teknolojik donanıma sahiptir.</p>
+      </div>
+
+      <div class="item">
+        <h3>Body Camera</h3>
+        <img src="https://theintercept.com/wp-content/uploads/2017/09/GettyImages-695011490-1505944874.jpg" alt="Body Camera">
+        <p>Görev sırasında polis memurlarının görüntü kaydı almasını sağlayan kamera sistemidir.</p>
+      </div>
+
+      <div class="item">
+        <h3>Taser X26</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/TASER-X26.jpg/640px-TASER-X26.jpg" alt="Taser">
+        <p>Şüphelileri etkisiz hale getirmek için kullanılan elektrikli silah.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Los Angeles Police Department Bilgilendirme Sayfası</p>
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+CSS
+
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0a1f44;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;header {
+  background-color: #003366; 
+  padding: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h2 {
+    animation: color-change 3s infinite;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.logo-container img {
+  width: 60px;
+  height: auto;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-text p {
+  margin: 0;
+  font-style: italic;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+}
+
+/* Başlık */
+header {
+  background-color: #001f3f;
+  text-align: center;
+  padding: 30px 20px;
+  border-bottom: 3px solid #ffc107;
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+  font-style: italic;
+}
+
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+
+h2 {
+  font-size: 28px;
+  border-left: 5px solid #ffc107;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+
+.equipment-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.item {
+  background-color: #112b55;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1 1 300px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.item img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+
+footer {
+  background-color: #001f3f;
+  text-align: center;
+  padding: 20px;
+  color: #bbbbbb;
+  margin-top: 40px;
+}
+
+
+
+
+
+
+
+
